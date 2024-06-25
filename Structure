@@ -1,0 +1,12 @@
+/my-minecraft-shop
+  /css
+    style.css
+  /js
+    script.js
+  /img
+    logo.png
+  /pages
+    about.html
+    contact.html
+    shop.html
+  index.html

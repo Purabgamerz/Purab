@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Minecraft Server Shop</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Minecraft Server Shop Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="shop">
+            <h2>Shop</h2>
+            <div class="shop-item">
+                <h3>Diamond Sword</h3>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Diamond Sword', 10)">Add to Cart</button>
+            </div>
+            <div class="shop-item">
+                <h3>Golden Apple</h3>
+                <p>Price: $5</p>
+                <button onclick="addToCart('Golden Apple', 5)">Add to Cart</button>
+            </div>
+            <!-- Add more items as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minecraft Server Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

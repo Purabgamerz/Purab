@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Server Shop - Shop</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shop/style.css">
 </head>
 <body>
     <header>
@@ -23,13 +23,17 @@
         <section id="shop">
             <h2>Available Items</h2>
             <div class="shop-item">
+                <img src="images/diamond_sword.png" alt="Diamond Sword">
                 <h3>Diamond Sword</h3>
-                <p>Price: $10</p>
+                <p class="description">A powerful weapon to fend off enemies.</p>
+                <p class="price">$10</p>
                 <button onclick="addToCart('Diamond Sword', 10)">Add to Cart</button>
             </div>
             <div class="shop-item">
+                <img src="images/golden_apple.png" alt="Golden Apple">
                 <h3>Golden Apple</h3>
-                <p>Price: $5</p>
+                <p class="description">A rare item that grants special powers.</p>
+                <p class="price">$5</p>
                 <button onclick="addToCart('Golden Apple', 5)">Add to Cart</button>
             </div>
             <!-- Add more items as needed -->
@@ -40,6 +44,6 @@
         <p>&copy; 2024 Minecraft Server Shop. All rights reserved.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/shop/script.js"></script>
 </body>
 </html>

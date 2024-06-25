@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -30,11 +31,33 @@ main {
     padding: 2rem;
 }
 
+/* Shop Item Styles */
 .shop-item {
     border: 1px solid #ddd;
     margin: 1rem 0;
     padding: 1rem;
     text-align: center;
+}
+
+.shop-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.shop-item h3 {
+    margin: 0.5rem 0;
+}
+
+.shop-item .description {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.shop-item .price {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin: 0.5rem 0;
 }
 
 button {
@@ -52,23 +75,6 @@ button {
 
 button:hover {
     background-color: #45a049;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: auto;
-}
-
-form label {
-    margin: 0.5rem 0 0.2rem 0;
-}
-
-form input, form textarea {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
 }
 
 footer {
